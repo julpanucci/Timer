@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B989CE65243CA8B10064BB23 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B989CE64243CA8B10064BB23 /* CountdownTimer.swift */; };
+		B98E51CD243F83F9007BB22A /* UIDevice+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E51CC243F83F9007BB22A /* UIDevice+extensions.swift */; };
+		B98E51D1243F86DF007BB22A /* UIFont+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E51D0243F86DF007BB22A /* UIFont+extensions.swift */; };
+		B98E51D8243F875A007BB22A /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E51D2243F875A007BB22A /* Orbitron-Medium.ttf */; };
+		B98E51D9243F875A007BB22A /* Orbitron-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E51D3243F875A007BB22A /* Orbitron-Black.ttf */; };
+		B98E51DA243F875A007BB22A /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E51D4243F875A007BB22A /* Orbitron-Bold.ttf */; };
+		B98E51DB243F875A007BB22A /* Orbitron-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E51D5243F875A007BB22A /* Orbitron-ExtraBold.ttf */; };
+		B98E51DC243F875A007BB22A /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E51D6243F875A007BB22A /* Orbitron-Regular.ttf */; };
+		B98E51DD243F875A007BB22A /* Orbitron-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E51D7243F875A007BB22A /* Orbitron-SemiBold.ttf */; };
 		B9DAA122243631D6001208F1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DAA121243631D6001208F1 /* CoreData.framework */; };
 		B9DAA125243631D6001208F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DAA124243631D6001208F1 /* AppDelegate.swift */; };
 		B9DAA127243631D6001208F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DAA126243631D6001208F1 /* ViewController.swift */; };
-		B9DAA129243631D6001208F1 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DAA128243631D6001208F1 /* TestClass.swift */; };
-		B9DAA12C243631D6001208F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DAA12A243631D6001208F1 /* Main.storyboard */; };
 		B9DAA12E243631D8001208F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DAA12D243631D8001208F1 /* Assets.xcassets */; };
 		B9DAA131243631D8001208F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DAA12F243631D8001208F1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B989CE64243CA8B10064BB23 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		B98E51CC243F83F9007BB22A /* UIDevice+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+extensions.swift"; sourceTree = "<group>"; };
+		B98E51D0243F86DF007BB22A /* UIFont+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+extensions.swift"; sourceTree = "<group>"; };
+		B98E51D2243F875A007BB22A /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Medium.ttf"; sourceTree = "<group>"; };
+		B98E51D3243F875A007BB22A /* Orbitron-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Black.ttf"; sourceTree = "<group>"; };
+		B98E51D4243F875A007BB22A /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Bold.ttf"; sourceTree = "<group>"; };
+		B98E51D5243F875A007BB22A /* Orbitron-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B98E51D6243F875A007BB22A /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Regular.ttf"; sourceTree = "<group>"; };
+		B98E51D7243F875A007BB22A /* Orbitron-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-SemiBold.ttf"; sourceTree = "<group>"; };
 		B9DAA11E243631D6001208F1 /* TImer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TImer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DAA121243631D6001208F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B9DAA124243631D6001208F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9DAA126243631D6001208F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9DAA128243631D6001208F1 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
-		B9DAA12B243631D6001208F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9DAA12D243631D8001208F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DAA130243631D8001208F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DAA132243631D8001208F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,13 +82,20 @@
 		B9DAA123243631D6001208F1 /* TImer */ = {
 			isa = PBXGroup;
 			children = (
+				B989CE64243CA8B10064BB23 /* CountdownTimer.swift */,
 				B9DAA124243631D6001208F1 /* AppDelegate.swift */,
 				B9DAA126243631D6001208F1 /* ViewController.swift */,
-				B9DAA128243631D6001208F1 /* TestClass.swift */,
-				B9DAA12A243631D6001208F1 /* Main.storyboard */,
+				B98E51D0243F86DF007BB22A /* UIFont+extensions.swift */,
+				B98E51CC243F83F9007BB22A /* UIDevice+extensions.swift */,
 				B9DAA12D243631D8001208F1 /* Assets.xcassets */,
 				B9DAA12F243631D8001208F1 /* LaunchScreen.storyboard */,
 				B9DAA132243631D8001208F1 /* Info.plist */,
+				B98E51D3243F875A007BB22A /* Orbitron-Black.ttf */,
+				B98E51D4243F875A007BB22A /* Orbitron-Bold.ttf */,
+				B98E51D5243F875A007BB22A /* Orbitron-ExtraBold.ttf */,
+				B98E51D2243F875A007BB22A /* Orbitron-Medium.ttf */,
+				B98E51D6243F875A007BB22A /* Orbitron-Regular.ttf */,
+				B98E51D7243F875A007BB22A /* Orbitron-SemiBold.ttf */,
 			);
 			path = TImer;
 			sourceTree = "<group>";
@@ -139,7 +160,12 @@
 			files = (
 				B9DAA131243631D8001208F1 /* LaunchScreen.storyboard in Resources */,
 				B9DAA12E243631D8001208F1 /* Assets.xcassets in Resources */,
-				B9DAA12C243631D6001208F1 /* Main.storyboard in Resources */,
+				B98E51DA243F875A007BB22A /* Orbitron-Bold.ttf in Resources */,
+				B98E51DB243F875A007BB22A /* Orbitron-ExtraBold.ttf in Resources */,
+				B98E51DD243F875A007BB22A /* Orbitron-SemiBold.ttf in Resources */,
+				B98E51D8243F875A007BB22A /* Orbitron-Medium.ttf in Resources */,
+				B98E51D9243F875A007BB22A /* Orbitron-Black.ttf in Resources */,
+				B98E51DC243F875A007BB22A /* Orbitron-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,22 +177,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DAA127243631D6001208F1 /* ViewController.swift in Sources */,
-				B9DAA129243631D6001208F1 /* TestClass.swift in Sources */,
+				B98E51CD243F83F9007BB22A /* UIDevice+extensions.swift in Sources */,
+				B98E51D1243F86DF007BB22A /* UIFont+extensions.swift in Sources */,
 				B9DAA125243631D6001208F1 /* AppDelegate.swift in Sources */,
+				B989CE65243CA8B10064BB23 /* CountdownTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B9DAA12A243631D6001208F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9DAA12B243631D6001208F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B9DAA12F243631D8001208F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DGYJ3R2C9F;
 				INFOPLIST_FILE = TImer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DGYJ3R2C9F;
 				INFOPLIST_FILE = TImer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
